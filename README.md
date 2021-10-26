@@ -1,14 +1,21 @@
-# mac-lock-screen-quotes
-A script to update a Mac's lock screen message with a daily quote from an API
+# Introduction
+This application updates a Mac's lock screen message with a daily quote from https://quotes.rest/.
 
-### Setup on Mac
+A Python script is written to fetch the quote from the API and write it to a `txt` file. A shell script calls the command to set the lock screen message to what's contained in the `txt` file.
 
-Edit Paths to where system folder path is. 
+Two approaches were taken- one using an Automator app and one using crontab.
 
-modify on these lines your system path to the script 
-- changeLockScreenMessage.sh#12
-- requestQuotes.py#7
-- document.wflow#54
+## First steps
+Update the file locations in each file to be relevant to your system's paths. 
 
+## Setup Instructions
 
-To run on login/logout go to Add to Settings -> User & Groups -> Login Items. Add automator to your login. 
+### Using the Automator app
+LockScreenQuotes can be run manually using the Mac's Automator applications.
+
+To have the application run on startup, go to System Preferences -> User & Groups -> Login Items, and add LockScreenQuotes as an item.
+
+### Using crontab
+The crontab solution is set up to run on the hour. 
+
+Open a terminal and type in `sudo crontab -e`, which will open up a vim editor. Press `i` to go into insert mode. Paste the contents of `LockScreenQuotesCrontab.sh` into to the editor. Type `:wq` to exit the editor. 
