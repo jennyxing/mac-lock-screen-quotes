@@ -18,4 +18,4 @@ To have the application run on startup, go to System Preferences -> User & Group
 ### Using crontab
 The crontab solution is set up to run on the hour. 
 
-Open a terminal and type in `sudo crontab -e`, which will open up a vim editor. Press `i` to go into insert mode. Paste the contents of `LockScreenQuotesCrontab.sh` into to the editor. Type `:wq` to exit the editor. 
+Open a terminal and type in `sudo crontab -e`, which will open up a vim editor. Press `i` to go into insert mode. Paste the contents of `LockScreenQuotesCrontab.txt` into to the editor. Type `:wq` to exit the editor. 
