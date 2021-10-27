@@ -1,0 +1,1 @@
+0 * * * *  bash /Users/jennyxing/Documents/lock-screen-quotes/crontask.sh >/tmp/stdout.log 2>/tmp/stderr.log  
