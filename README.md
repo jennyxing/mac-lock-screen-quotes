@@ -16,6 +16,6 @@ LockScreenQuotes can be run manually using the Mac's Automator applications.
 To have the application run on startup, go to System Preferences -> User & Groups -> Login Items, and add LockScreenQuotes as an item.
 
 ### Using crontab
-The crontab solution is set up to run on the hour. 
+The crontab solution is set up to run at minute 0 of each hour. 
 
 Open a terminal and type in `sudo crontab -e`, which will open up a vim editor. Press `i` to go into insert mode. Paste the contents of `LockScreenQuotesCrontab.txt` into to the editor. Type `:wq` to exit the editor. 
