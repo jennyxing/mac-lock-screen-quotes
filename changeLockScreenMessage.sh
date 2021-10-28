@@ -9,5 +9,5 @@
 
 # sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "$quote - $author"
 
-sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "`cat /Users/jennyx/Documents/lock-screen-quotes/quotesAPIResults.txt`"
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "`cat /Users/jennyx/Documents/mac-lock-screen-quotes/quotesAPIResults.txt`"
 

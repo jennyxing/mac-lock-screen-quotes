@@ -51,7 +51,8 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>do shell script "python /Users/jennyx/Documents/lock-screen-quotes/requestQuotes.py"</string>
+					<string>do shell script "python /Users/jennyx/Documents/mac-lock-screen-quotes/requestQuotes.py"
+</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -153,7 +154,8 @@ end run</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>do shell script "/Users/jennyx/Documents/lock-screen-quotes/changeLockScreenMessage.sh" with administrator privileges</string>
+					<string>do shell script "/Users/jennyx/Documents/mac-lock-screen-quotes/changeLockScreenMessage.sh" with administrator privileges
+</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
