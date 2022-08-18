@@ -1,6 +1,6 @@
 import requests
 
-resp = requests.get('https://quotes.rest/qod?category=life')
+resp = requests.get('https://quotes.rest/qod?category=life', verify=False)
 response = resp.json()
 author = response['contents']['quotes'][0]['author']
 quote = response['contents']['quotes'][0]['quote']
