@@ -1,5 +1,5 @@
 # Introduction
-This application updates a Mac's lock screen message with a daily quote from https://quotes.rest/.
+This application updates a Mac's lock screen message with a daily quote from https://quotes.rest/ (currently gets a quote from the life category).
 
 A Python script is written to fetch the quote from the API and write it to a `txt` file. A shell script calls the command to set the lock screen message to what's contained in the `txt` file.
 
